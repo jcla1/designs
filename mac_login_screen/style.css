@@ -1,0 +1,95 @@
+/* -------------------- Joseph Adams -------------------- */
+
+/* -------------------- normalizing -------------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+:focus {
+	outline: 1;
+}
+
+/* -------------------- main style -------------------- */
+
+#container {
+    background: url("background.png") repeat;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#overlay {
+    background: -webkit-radial-gradient(center, circle, #ffffff 0%,#000000 100%);
+    opacity: 0.3;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#name {
+    color: #FFF;
+    padding: 400px 0px 20px 0px;
+    font-family: LucidaGrande, Helvetica Neue, serif;
+    font-size: 11pt;
+}
+
+#profile_img {
+    background: url("big.jpg");
+    background-position: center;
+    -moz-border-radius: 100em; 
+    -webkit-border-radius: 100em; 
+    border-radius: 100em; 
+    border: 6px solid #FFF;
+    height: 115px;
+    width: 115px;   
+    margin: auto;
+    margin-top: 200px;
+}
+
+#img_container {
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    margin: auto;
+    position: absolute;
+}
+
+#label_container {
+    width: 100%;
+    position: absolute;
+    top: 440px;
+    left: -50px;
+    z-index: 5;
+}
+
+#password_box input{
+    width: 150px;
+}
+
+label { 
+    color: #666;
+    font: -webkit-small-control;
+    text-align: center;
+    z-index: 5;
+ }
