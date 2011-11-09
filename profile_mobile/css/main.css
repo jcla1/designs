@@ -1,0 +1,101 @@
+/* -------------------- normalize -------------------- */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+html
+{
+	font-family:"Helvetica Neue", Arial, sans-serif;
+	background:#e3e3e3 url(../img/main_bg.gif) top left repeat;
+	height:100%;
+	width:100%;
+	padding:20px 0;
+	overflow-x:hidden;
+}
+
+a,a:link,a:visited
+{
+	text-decoration:none;
+}
+
+/* -------------------- header -------------------- */
+
+header
+{
+	text-align:center;
+	text-shadow:1px 1px 1px RGBA(255,255,255,0.6);
+}
+
+header h1
+{
+	font-family: Helvetica;
+	color:#666666;
+	font-size:39px;
+	line-height:44px;
+	margin:0 0 10px 0;
+}
+
+header h2
+{
+	font-family: Helvetica;
+	color:#8daf67;
+	font-size:19px;
+	font-weight:300;
+	margin:0 0 20px 0;
+	line-height: 22px;
+}
+
+header .profile_image
+{
+	background:#fff;
+	border:solid 1px #ccc;
+	padding:8px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-box-shadow:0 1px 0 #fff;
+	-moz-box-shadow:0 1px 0 #fff;
+	box-shadow:0 1px 0 #fff;
+}
+
+.links a, .links a:link, .links a:visited
+{
+	font-size:14px;
+	text-decoration:none;
+	color:#605f5f;
+	background:#fff;
+	padding:10px 19px;
+	border-radius:500px;
+	-moz-border-radius:500px;
+	-o-border-radius:500px;
+	border:solid 1px #ccc;
+	-webkit-box-shadow:0 1px 0 #fff;
+	-moz-box-shadow:0 1px 0 #fff;
+	box-shadow:0 1px 0 #fff;
+	display:inline-block;
+	margin:0 0 12px 0;
+	
+}
+
+.connections {
+    padding: 20px;
+    align: center;
+    margin: 0 auto;
+    width: 164px;
+}
+
+.connections ul li{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.connections ul li a div{
+    background: url("../img/services-set.png");
+    width: 30px;
+    height: 30px;
+    float: left;
+	
+}
+
+.connections a div#twitter	{ background-position: -80px 0px; }
+.connections a div#github	{ background-position: -240px -40px; }
+.connections a div#foursquare{ background-position: -200px 0px; }
